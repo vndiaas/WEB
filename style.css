@@ -336,4 +336,131 @@ footer .line_footer p a{
   color: aliceblue;
 }
 
+.menu_mobile{
+  background-color: #000814;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 77px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.menu_mobile nav a{
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+  padding: 20px 30px;
+  font-size: 16pt;
+  
+}
+
+.menu_mobile nav a:hover{
+  background-color: #ffffff1d;
+}
+
+
+  /* responsividade */
+@media screen and (max-width: 1020px){
+
+
+  /* CLASS GERAL */
+  .flex_geral{
+    flex-direction: column-reverse;
+  }
+  /* .topo{
+    flex-direction: column-reverse;
+  } */
+  h2.titulo{
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  /* nav */
+  .menu, .btn{
+    display: none;
+  }
+  /* topo */
+
+  section.topo .flex_geral{
+    gap: 40px;
+  }
+
+  section.topo{
+    padding: 20px 8%;
+  }
+  .topo h1{
+    font-size: 30px;
+  }
+
+  .topo .imagen img{
+   width: 100%;
+  }
+  /* especialidades */
+  section.especialidades{
+    padding: 40px 8%;
+  }
+
+  h2.titulo{
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  /* sobre */
+
+  section.sobre{
+    padding: 80px 8%;
+  }
+
+  .sobre .txt_sobre h2{
+    font-size: 34px;
+    line-height: 35px;
+    text-align: center;
+  }
+  
+  .btn_social{
+    text-align: center;
+  }
+
+  .img_sobre img{
+    width: 100%;
+  }
+   
+  /* portfolio */
+
+  section.portfolio{
+    padding: 80px 8%;
+  }
+
+  .img_port{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    
+  }
+
+  section.portfolio .flex_geral{
+    gap: 60px;
+  }
+
+  /* roda pe */
+
+  fooder .flex_geral{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  fooder .line_footer{
+    text-align: center;
+  }
+.menu, .btn{
+  display: none;
+}
+  .logo{
+    width: 100%;
+  }
+}
+
  
